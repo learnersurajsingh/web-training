@@ -8,7 +8,8 @@ article{
     font-family:sans-serif;
     line-height: 1.4;
     width: 825px;
-    margin: 9px auto;
+    margin: 20px auto;
+    position: relative;
 }
 
 h2{
@@ -63,4 +64,49 @@ a:link{
 
 a:hover{
     text-decoration: none;
+}
+
+.sale{
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: -30px;
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.black{
+    background-color: black;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.brown{
+    background-color: brown;
 }
